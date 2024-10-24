@@ -1,0 +1,44 @@
+/* static/styles.css */
+.rule-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.rule-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.rule-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1a202c;
+}
+
+.rule-description {
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+}
+
+.rule-text {
+    font-family: monospace;
+    background-color: #f7fafc;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+}
+
+.success-result {
+    background-color: #c6f6d5;
+    color: #2f855a;
+}
+
+.failure-result {
+    background-color: #fed7d7;
+    color: #c53030;
+}
